@@ -27,6 +27,14 @@ public class LoginPageClass {
 		driver.findElement(By.id("email")).sendKeys("12345");
 		driver.findElement(By.id("pass")).sendKeys("12345");
         System.out.println("GIT CODE CHANGES");
+        System.out.println("GIT CODE CHANGES");
+        System.out.println("GIT CODE CHANGES");
+        System.out.println("GIT CODE CHANGES");
+        System.out.println("GIT CODE CHANGES");
+        System.out.println("GIT CODE CHANGES");
+        System.out.println("GIT CODE CHANGES");
+        System.out.println("GIT CODE CHANGES");
+        
 	}
 
 	@When("user click login button")
