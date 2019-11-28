@@ -18,6 +18,7 @@ public class LoginPageClass {
 		driver = new ChromeDriver();
 
 		driver.get("https://www.facebook.com/");
+
 	}
 
 	@When("user enter username and password")
@@ -25,7 +26,7 @@ public class LoginPageClass {
 
 		driver.findElement(By.id("email")).sendKeys("12345");
 		driver.findElement(By.id("pass")).sendKeys("12345");
-
+        System.out.println("GIT CODE CHANGES");
 	}
 
 	@When("user click login button")
