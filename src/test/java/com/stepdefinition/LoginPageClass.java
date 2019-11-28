@@ -18,7 +18,8 @@ public class LoginPageClass {
 		driver = new ChromeDriver();
 
 		driver.get("https://www.facebook.com/");
-
+		System.out.println("GIT CODE CHANGES");System.out.println("GIT CODE CHANGES");System.out.println("GIT CODE CHANGES");
+		System.out.println("GIT CODE CHANGES");System.out.println("GIT CODE CHANGES");System.out.println("GIT CODE CHANGES");
 	}
 
 	@When("user enter username and password")
